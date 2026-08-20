@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Dual Spark to discuss websites, digital services and custom solutions.">
+  <meta name="theme-color" content="#0a0a0a">
+  <title>Contact | Dual Spark</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Dual Spark home"><img src="../DualSpark.jpg" alt="Dual Spark logo"><span>Dual<span class="accent">Spark</span></span></a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
+    <nav id="main-nav" class="main-nav" aria-label="Primary navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="portfolio.html">Portfolio</a><a href="products.html">Products</a><a class="nav-cta active" href="contact.html">Let's Talk</a></nav>
+  </header>
+
+  <main>
+    <section class="contact-hero reveal">
+      <div><p class="eyebrow">START A PROJECT</p><h1>Have an idea?<br><span class="accent">Let's make it real.</span></h1><p>Tell us what you're working on, what you need, and where you want to go. We'll figure out the next step together.</p></div>
+      <div class="contact-intro-card"><span>01</span><strong>Tell us about it.</strong><p>A few details are enough to get the conversation started.</p></div>
+    </section>
+
+    <section class="section contact-layout">
+      <form class="contact-form reveal" action="#" method="post" data-contact-form>
+        <div class="form-row"><label for="name">Your name<input id="name" name="name" type="text" autocomplete="name" placeholder="John Doe" required></label><label for="email">Email address<input id="email" name="email" type="email" autocomplete="email" placeholder="john@example.com" required></label></div>
+        <label for="service">What do you need?<select id="service" name="service" required><option value="" selected disabled>Select a service</option><option>Website development</option><option>Website redesign</option><option>Digital marketing</option><option>Google Ads management</option><option>Custom digital solution</option><option>Something else</option></select></label>
+        <label for="budget">Estimated budget<select id="budget" name="budget"><option value="" selected disabled>Choose a range</option><option>Under R1,000</option><option>R1,000 – R3,000</option><option>R3,000 – R7,000</option><option>R7,000+</option><option>Not sure yet</option></select></label>
+        <label for="message">Tell us about your project<textarea id="message" name="message" rows="7" placeholder="What are you trying to build or improve?" required></textarea></label>
+        <button class="btn btn-primary" type="submit">Send Enquiry →</button><p class="form-status" data-form-status role="status" aria-live="polite"></p>
+      </form>
+
+      <aside class="contact-details reveal">
+        <p class="eyebrow">CONTACT</p><h2>Let's have a<br><span class="accent">conversation.</span></h2>
+        <p>Whether you have a complete brief or just an idea, you're welcome to reach out. We'll keep things simple and focused.</p>
+        <div class="detail-list"><div><span>Email</span><a href="mailto:hello@dualspark.co.za">hello@dualspark.co.za</a></div><div><span>Availability</span><strong>Open for selected projects</strong></div><div><span>Response time</span><strong>Usually within 1–2 business days</strong></div></div>
+      </aside>
+    </section>
+
+    <section class="section statement reveal"><p class="eyebrow">NO BIG BRIEF YET?</p><h2>That's okay.<br><span class="accent">Start with a conversation.</span></h2></section>
+  </main>
+
+  <footer class="site-footer"><div><strong>Dual<span class="accent">Spark</span></strong><p>Two minds. One mission.</p></div><p>© 2026 Dual Spark. All rights reserved.</p></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
